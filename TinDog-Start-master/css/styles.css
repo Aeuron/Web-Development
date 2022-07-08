@@ -2,8 +2,24 @@
 h1 {
   font-family: 'Montserrat';
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 4.25rem;
   line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 /****************************** CLASS SELECTORS ******************************/
@@ -12,7 +28,66 @@ h1 {
   padding: 3% 15%;
 }
 
+.text-align-center{
+  text-align: center;
+}
+
+.icon-default-color{
+  font-size: 5rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 3%
+}
+
 /******************************** ID SELECTORS ********************************/
 #title {
   background-color: #ff4c68;
+  color: #ffffff;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+/******************************* NAVIGATION BAR *******************************/
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/****************************** DOWNLOAD BUTTONS ******************************/
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/******************************** TITLE IMAGE ********************************/
+
+.title-img{
+  width: 60%;
+  transform: rotate(30deg);
+}
+
+/***************************** ICON INTERACTIONS *****************************/
+
+.icon-default-color:hover{
+  color: red;
 }
