@@ -1,0 +1,18 @@
+/******************************* TAG SELECTORS *******************************/
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/****************************** CLASS SELECTORS ******************************/
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/******************************** ID SELECTORS ********************************/
+#title {
+  background-color: #ff4c68;
+}
