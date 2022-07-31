@@ -32,7 +32,7 @@ p {
 /****************************** CLASS SELECTORS ******************************/
 
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .text-align-center{
@@ -57,7 +57,10 @@ p {
 }
 
 #features {
+  background-color: #ffffff;
   padding: 7% 15%;
+  position: relative;
+  z-index: 1;
 }
 
 /******************************* NAVIGATION BAR *******************************/
@@ -89,8 +92,11 @@ p {
 /******************************** TITLE IMAGE ********************************/
 
 .title-img{
-  width: 60%;
-  transform: rotate(30deg);
+  width: 21%;
+  right: 25%;
+  top: 30%;
+  transform: rotate(20deg);
+  position: absolute;
 }
 
 /***************************** ICON INTERACTIONS *****************************/
@@ -126,4 +132,15 @@ p {
 .press-logo{
   width: 10%;
   margin: 20px 20px 50px;
+}
+
+/****************************** PRICING SECTION ******************************/
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
 }
