@@ -212,3 +212,48 @@
 // }
 //
 // beer(99);
+
+var output = [];
+var num;
+
+function ArrayToNum(number){
+
+    var moduloBy5;
+    var moduloBy3;
+    for( var i = 0; i < number + 1; i++)
+    {
+        output.push(i);
+        // console.log(i);
+
+        moduloBy3 = i % 3;
+        moduloBy5 = i % 5;
+
+        if( i != 0 )
+        {
+            if(moduloBy3 === 0 && moduloBy5 === 0)
+            {
+                console.log(i + " FizzBuzz");
+            }
+            else if(moduloBy3 === 0 )
+            {
+                console.log(i + " Fizz");
+            }
+            else if(moduloBy5 === 0)
+            {
+                console.log(i + " Buzz");
+            }
+        }
+
+        // output.pull(i);
+    }
+}
+
+function fizzBuzz()
+    {
+        ++num;
+        return num;
+    }
+
+// fizzBuzz();
+ArrayToNum(100);
+// console.log(output[56]);
