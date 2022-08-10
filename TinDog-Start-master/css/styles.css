@@ -1,32 +1,31 @@
 /******************************* TAG SELECTORS *******************************/
-h1 {
-  font-family: 'Montserrat';
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h2{
-  font-family: 'Montserrat';
-  font-weight: 900;
-  font-size: 2.5rem;
-  line-height: 1.5;
-}
-
-h3 {
-  font-family: 'Montserrat';
-  font-weight: 900;
-  font-size: 2rem;
-  line-height: 1.5;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-weight: 900;
 }
 
 body {
   font-family: 'Montserrat';
   font-weight: 400;
+  text-align: center;
 }
 
 p {
   color: #8f8f8f;
+}
+
+/********************************** HEADINGS **********************************/
+
+.big-heading {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 /****************************** CLASS SELECTORS ******************************/
@@ -35,8 +34,15 @@ p {
   padding: 3% 15% 7%;
 }
 
-.text-align-center{
-  text-align: center;
+/********************************** SECTIONS **********************************/
+
+.color-section{
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+.white-section{
+    background-color: #ffffff;
 }
 
 .icon-default-color{
@@ -46,21 +52,19 @@ p {
 }
 
 .feature-box{
-  text-align: center;
   padding: 3%
 }
 
 /******************************** ID SELECTORS ********************************/
-#title {
-  background-color: #ff4c68;
-  color: #ffffff;
-}
+
 
 #features {
-  background-color: #ffffff;
-  padding: 7% 15%;
   position: relative;
   z-index: 1;
+}
+
+.feature-title{
+
 }
 
 /******************************* NAVIGATION BAR *******************************/
@@ -81,6 +85,13 @@ p {
 
 .nav-link{
   font-size: 1.2rem;
+}
+
+/******************************* TITLE SECTION *******************************/
+
+#title .container-fluid {
+    padding: 3% 15%;
+    text-align: left;
 }
 
 /****************************** DOWNLOAD BUTTONS ******************************/
@@ -109,8 +120,11 @@ p {
 
 #testimonials{
   background-color: #ef8172;
-  text-align: center;
-  color: #ffffff;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-img{
@@ -125,7 +139,6 @@ p {
 
 #press{
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -138,7 +151,11 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column{
@@ -160,23 +177,11 @@ p {
 
 /****************************** CTA SECTION ******************************/
 
-#cta{
-    background-color: #ff4c68;
-    color: #ffffff;
-    text-align: center;
-    padding-top: 7%;
-    /* padding-bottom: 1%; */
-}
-.cta-h3{
-    font-size: 3.5rem;
+.cta-heading{
+    font-size: 2.5rem;
     line-height: 1.5;
     padding-left: 20%;
     padding-right: 20%;
-}
-#footer{
-    text-align: center;
-    padding-top: 10%;
-    padding-bottom: 3%;
 }
 
 .footer-icons{
