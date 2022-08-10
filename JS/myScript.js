@@ -41,8 +41,25 @@
 // alert("Hello, " + upperCaseFirstChar + lowerCaseRestOfName);
 
 // Dog Age Converter
-var dogAge = 18;
+// var dogAge = 18;
+//
+// var humanAge = ((dogAge - 2) * 4) + 21
+//
+// humanAge;
 
-var humanAge = ((dogAge - 2) * 4) + 21
+// Time remaining calculator
+// function lifeInWeeks(age) {
+//     //Write your code here.
+//     var yearsLeft = 90 - age;
+//
+//     var monthsLeft = yearsLeft * 12;
+//     var weeksLeft = yearsLeft * 52;
+//     var daysLeft = yearsLeft * 365;
+//
+//     console.log("You have " + daysLeft +  " days," + weeksLeft + "weeks," + monthsLeft + "months left.");
+// }
 
-humanAge;
+function getMilk(money)
+{
+  return money % 1.5;
+}
