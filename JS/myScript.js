@@ -168,3 +168,47 @@
 //         }
 //         // console.log(guestList[i]);
 //     }
+
+// namesList = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
+// function whosPaying(names) {
+//
+//     /******Don't change the code above*******/
+//
+//     //Write your code here.
+//     var numberOfPeople = names.length;
+//     var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
+//     var randomPerson = names[randomPersonPosition];
+//
+//     console.log(randomPerson + " is going to buy lunch today!");
+//     return randomPerson + " is going to buy lunch today!";
+//
+//
+//
+//     /******Don't change the code below*******/
+// }
+//
+// whosPaying(namesList);
+
+// function beer(num) {
+//
+//     /******Don't change the code above*******/
+//
+//     //Write your code here.
+//     var i = num + 1;
+//     while (i > 0) {
+//         i--;
+//         if (i != 0) {
+//             console.log(i + " bottles of beer on the wall, " + i + " bottles of beer. Take one down and pass it around, " + (i - 1) + " bottles of beer on the wall.");
+//         }
+//         else if (i === 0) {
+//             console.log("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.");
+//         }
+//
+//     }
+//
+//
+//
+//     /******Don't change the code below*******/
+// }
+//
+// beer(99);
