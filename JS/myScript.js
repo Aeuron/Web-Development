@@ -213,47 +213,76 @@
 //
 // beer(99);
 
-var output = [];
-var num;
+// var output = [];
+// var num;
+//
+// function ArrayToNum(number){
+//
+//     var moduloBy5;
+//     var moduloBy3;
+//     for( var i = 0; i < number + 1; i++)
+//     {
+//         output.push(i);
+//         // console.log(i);
+//
+//         moduloBy3 = i % 3;
+//         moduloBy5 = i % 5;
+//
+//         if( i != 0 )
+//         {
+//             if(moduloBy3 === 0 && moduloBy5 === 0)
+//             {
+//                 console.log(i + " FizzBuzz");
+//             }
+//             else if(moduloBy3 === 0 )
+//             {
+//                 console.log(i + " Fizz");
+//             }
+//             else if(moduloBy5 === 0)
+//             {
+//                 console.log(i + " Buzz");
+//             }
+//         }
+//
+//         // output.pull(i);
+//     }
+// }
+//
+// function fizzBuzz()
+//     {
+//         ++num;
+//         return num;
+//     }
+//
+// // fizzBuzz();
+// ArrayToNum(100);
+// // console.log(output[56]);
 
-function ArrayToNum(number){
-
-    var moduloBy5;
-    var moduloBy3;
-    for( var i = 0; i < number + 1; i++)
-    {
-        output.push(i);
-        // console.log(i);
-
-        moduloBy3 = i % 3;
-        moduloBy5 = i % 5;
-
-        if( i != 0 )
-        {
-            if(moduloBy3 === 0 && moduloBy5 === 0)
-            {
-                console.log(i + " FizzBuzz");
-            }
-            else if(moduloBy3 === 0 )
-            {
-                console.log(i + " Fizz");
-            }
-            else if(moduloBy5 === 0)
-            {
-                console.log(i + " Buzz");
-            }
-        }
-
-        // output.pull(i);
-    }
-}
-
-function fizzBuzz()
-    {
-        ++num;
-        return num;
-    }
-
-// fizzBuzz();
-ArrayToNum(100);
-// console.log(output[56]);
+// var temp_array = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+//
+// function fibonacciGenerator(n) {
+//
+//     var output = []
+//
+//     if (n === 1) {
+//         output.push(0);
+//         console.log(output);
+//     }
+//     else if (n === 2) {
+//         output.push(0);
+//         output.push(1);
+//         console.log(output);
+//     }
+//     else if (n > 2) {
+//         output = [0,1];
+//         for (var i = 0; i < n - 2; i++) { // i = 2 also works
+//
+//             var lastElements = output.slice(-2);
+//             var newArrayNumber = lastElements[0] + lastElements[1];
+//             output.push(newArrayNumber);
+//         }
+//         console.log(output);
+//     }
+// }
+//
+// fibonacciGenerator(13);
