@@ -113,3 +113,58 @@
 // /**************Don't change the code below****************/
 //
 // }
+// }
+//
+// function alertMe(message){
+//    for(var i = 0; i < 5; i++)
+//     {
+//       console.log(message);
+//     }
+// }
+//
+// var a = Math.random();
+// // console.log(a);
+//
+// function LoveCalculation(max){
+//
+//     user_1 = prompt("What is your name?");
+//     user_2 = prompt("What is the name of the person you're interested in?");
+//
+//     var num = Math.floor(Math.random() * (max + 1)); // Need to add 1 to equal max num.
+//
+//     if(num < 50)
+//     {
+//         alert(user_1 + " and " + user_2 + " are " + num + "% compatible. You guys could try making it work.");
+//     }
+//     else if (num >= 50 && num <= 75)
+//     {
+//         alert(user_1 + " and " + user_2 + " are " + num + "% compatible.");
+//     }
+//     else if(num > 75 && num < 90)
+//     {
+//         alert(user_1 + " and " + user_2 + " are " + num + "% compatible. You guys got something going on here!");
+//     }
+//     else if(num >= 90)
+//     {
+//         alert(user_1 + " and " + user_2 + " are " + num + "% compatible. You guys love each other like Kanye loves Kanye!");
+//     }
+//
+// }
+
+// var guestList = ["Garry","Zia","Tamiko","Kevin","Goran","David"];
+// var approvedGuests = ["Garry", "Zia","Tamiko"];
+//
+// var name = prompt("What is your name?");
+//
+// for(var i = 0; i < guestList.length; i++)
+//     {
+//         if(guestList.includes(name))
+//         {
+//             console.log("Approved");
+//         }
+//         else
+//         {
+//             console.log("Not Approved");
+//         }
+//         // console.log(guestList[i]);
+//     }
