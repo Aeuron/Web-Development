@@ -93,3 +93,23 @@
 //
 //     return interpretation;
 // }
+
+// function isLeap(year) {
+//
+// /**************Don't change the code above****************/
+//
+//     //Write your code here.
+//     var y = year % 4;
+//     if(y > 0)
+//     {
+//         console.log("Not leap year.");
+//     }
+//     else{
+//         console.log("Leap year.");
+//     }
+//
+//
+//
+// /**************Don't change the code below****************/
+//
+// }
