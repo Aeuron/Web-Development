@@ -286,3 +286,9 @@
 // }
 //
 // fibonacciGenerator(13);
+
+/****************************** JS HTML EXAMPLES ******************************/
+//document.querySelector("h1").innerHTML = "Good Bye"; // Gets everything inside the H1 Html
+//document.querySelector("h1").textContent = "Good Bye"; // Gets the text content
+//document.getElementById("h1").innerHTML = "Good Bye";
+//document.querySelector("a").setAttribute("href", "https://www.bing.com");
